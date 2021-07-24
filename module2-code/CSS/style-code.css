@@ -33,7 +33,7 @@ h1{
     border: black solid 2px;
     width: 33.33%;
     float: right ;
-    font: white;
+    color: white;
 }
 #box3{
     background:goldenrod;
@@ -112,3 +112,4 @@ p{
     clear:right;
     padding : 10px;
 }
+
