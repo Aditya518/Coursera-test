@@ -21,6 +21,8 @@ h1{
     border: black solid 2px;
     width: 33.33%;
     float: right ;
+    border-top: none;
+    border-right: none;
 }
 #box2{
     background: red;
@@ -34,6 +36,8 @@ h1{
     width: 33.33%;
     float: right ;
     color: white;
+    border-top: none;
+    border-right: none;
 }
 #box3{
     background:goldenrod;
@@ -47,6 +51,8 @@ h1{
     width: 33.33%;
     float: right ;
     clear:right;
+    border-top: none;
+    border-right: none;
 }
 #p1,#p2,#p3{
     background: white;
