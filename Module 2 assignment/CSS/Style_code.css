@@ -1,0 +1,114 @@
+*{
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+    font-family: cursive;
+}
+/*#box{
+    background :gray;
+    border: black solid 2px;
+    padding
+}*/
+#box1{
+    background: rgb(218, 126, 126);
+    text-align: center;
+    font-family:cursive ;
+    font-size: large;
+    padding-top: none;
+    padding-left: none;
+    padding-right: none;
+    border: black solid 2px;
+    width: 33.33%;
+    float: right ;
+}
+#box2{
+    background: red;
+    text-align: center;
+    font-family: cursive;
+    font-size: large;
+    padding-top: none;
+    padding-left: none;
+    padding-right: none;
+    border: black solid 2px;
+    width: 33.33%;
+    float: right ;
+    font: white;
+}
+#box3{
+    background:goldenrod;
+    text-align: center;
+    font-family:cursive;
+    font-size: large;
+    padding-top: none;
+    padding-left: none;
+    padding-right: none;
+    border: black solid 2px;
+    width: 33.33%;
+    float: right ;
+    clear:right;
+}
+#p1,#p2,#p3{
+    background: white;
+    clear: right;
+    border: solid white 2px;
+    box-sizing: border-box;
+    font-family:cursive;
+    padding-right: none;
+    padding-left: 20px;
+    padding-top: none;
+    padding-bottom: 20px;
+    border-right-width: 20px;
+
+
+}
+#p4{
+    border: solid black 2px;
+    background: gray;
+}
+@media (min-width: 992px){
+    .col-lg-4{
+        width: 33.33%;
+        float: left;
+    }
+    /*#p1{
+        width: 33.33%;
+    }
+    #p2{
+        width: 33.33%;
+    }
+    #p3{
+        width: 33.33%;
+    }*/
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+    .col-md-6{ 
+        width: 50%;
+        float: left;
+    }
+    .col-md-1{
+         width: 100%;
+         float: left;
+        }
+    /*#p1{
+        width: 50%;
+    }
+    #p2{
+        width: 50%;
+    }
+    #p3{
+        width: 100%;
+    }*/
+}
+.row{
+    width: 100%;
+    padding-right: 15px;
+}
+.box{
+    border-right-width: 20px;
+}
+p{
+    clear:right;
+    padding : 10px;
+}
