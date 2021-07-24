@@ -1,4 +1,6 @@
-*{box-sizing: border-box;}
+*{
+    box-sizing: border-box;
+}
 h1{
     text-align: center;
     font-family: cursive;
@@ -9,7 +11,7 @@ h1{
     padding
 }*/
 #box1{
-    background: indianred;
+    background: rgb(218, 126, 126);
     text-align: center;
     font-family:cursive;
     font-size: large;
@@ -31,6 +33,7 @@ h1{
     border: black solid 2px;
     width: 33.33%;
     float: right ;
+    font: white;
 }
 #box3{
     background:goldenrod;
@@ -43,18 +46,25 @@ h1{
     border: black solid 2px;
     width: 33.33%;
     float: right ;
+    clear:right;
 }
 #p1,#p2,#p3{
-    background: gray;
+    background: white;
     clear: right;
-    border: black solid 2px;
+    border: solid white 2px;
     box-sizing: border-box;
     font-family:cursive;
     padding-right: none;
     padding-left: 20px;
     padding-top: none;
     padding-bottom: 20px;
- 
+    border-right-width: 20px;
+
+
+}
+#p4{
+    border: solid black 2px;
+    background: gray;
 }
 @media (min-width: 992px){
     .col-lg-4{
@@ -93,7 +103,12 @@ h1{
 }
 .row{
     width: 100%;
+    padding-right: 15px;
 }
-#sp-box{
-    padding: 20px 20px 20px 20px;
+.box{
+    border-right-width: 20px;
+}
+p{
+    clear:right;
+    padding : 10px;
 }
